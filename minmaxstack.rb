@@ -1,4 +1,4 @@
-class MyStack
+class MinMaxStack
   attr_reader :store
 
   def initialize

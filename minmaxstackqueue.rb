@@ -3,8 +3,8 @@ require_relative 'queue'
 
 class MinMaxStackQueue
   def initialize
-    @store1 = MyStack.new
-    @store2 = MyStack.new
+    @store1 = MinMaxStack.new
+    @store2 = MinMaxStack.new
   end
 
   def enqueue el

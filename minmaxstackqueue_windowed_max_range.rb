@@ -2,7 +2,6 @@ require_relative 'minmaxstackqueue'
 require 'benchmark'
 
 #O(n * w)
-
 def windowed_max_range arr, w
   current = 0
 
@@ -15,7 +14,6 @@ def windowed_max_range arr, w
 end
 
 #O(n)
-
 def windowed_max_range arr, w
   current = 0
 
